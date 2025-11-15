@@ -18,20 +18,21 @@ It showcases real-world skills in data ingestion, cleaning, SQL analysis, automa
 
 ## 📁 Project Structure
 
-project-folder/
+project/
 │
 ├── scripts/
-│ ├── ingestion_db.py
-│ ├── get_vendors_summary.py
+│   ├── ingestion_db.py                # Loads all CSVs into SQLite DB
+│   ├── get_vendors_summary.py         # Creates SQL-based vendor summary table
 │
 ├── notebooks/
-│ ├── Exploratory_data_analysis.ipynb
-│ ├── Vendor Performance Analysis.ipynb
+│   ├── Exploratory_data_analysis.ipynb
+│   ├── Vendor Performance Analysis.ipynb
 │
-├── Data/ # (Ignored - large source CSVs)
-├── log/ # (Ignored - script logs)
+├── Data/                              # Raw CSVs (ignored in GitHub)
+├── log/                               # Logging folder
 ├── .gitignore
 └── README.md
+
 
 
 ---

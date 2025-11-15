@@ -14,28 +14,25 @@ It showcases real-world skills in data ingestion, cleaning, SQL analysis, automa
 - Create SQL queries for vendor scorecards, stock variance, and pricing summaries.
 - Build interactive Power BI dashboards visualizing key business KPIs.
 
----
-
 ## 📁 Project Structure
 
+```
 project/
 │
 ├── scripts/
-│   ├── ingestion_db.py                # Loads all CSVs into SQLite DB
-│   ├── get_vendors_summary.py         # Creates SQL-based vendor summary table
+│   ├── ingestion_db.py
+│   ├── get_vendors_summary.py
 │
 ├── notebooks/
 │   ├── Exploratory_data_analysis.ipynb
 │   ├── Vendor Performance Analysis.ipynb
 │
-├── Data/                              # Raw CSVs (ignored in GitHub)
-├── log/                               # Logging folder
+├── Data/                  # Raw CSVs (ignored)
+├── log/                   # Logging folder
 ├── .gitignore
 └── README.md
+```
 
-
-
----
 
 ## 🛠️ **Tech Stack Used**
 

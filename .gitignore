@@ -1,0 +1,12 @@
+# Ignore big CSV files
+Data/*.csv
+
+# Ignore SQLite database
+inventory.db
+
+# Ignore log files
+log/*
+
+# Ignore Python cache
+__pycache__/
+*.pyc
